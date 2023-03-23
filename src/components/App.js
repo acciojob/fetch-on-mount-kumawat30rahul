@@ -13,7 +13,7 @@ const App = () => {
     <div>
         {data && data.map((item,index) => (
           <div>
-          <h1>{index+1}.{item.title}</h1>
+          <h2>{index+1}.{item.title}</h2>
           <p>{item.body}</p>
           </div>
         ))}
